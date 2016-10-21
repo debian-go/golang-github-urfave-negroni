@@ -1,0 +1,2 @@
+version=4
+https://github.com/urfave/negroni/releases /urfave/negroni/archive/v(.+)\.tar\.gz

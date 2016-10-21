@@ -1,0 +1,5 @@
+golang-github-urfave-negroni (0.2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #841640)
+
+ -- Free Ekanayaka <freee@debian.org>  Fri, 21 Oct 2016 14:26:54 +0000

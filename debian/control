@@ -1,0 +1,28 @@
+Source: golang-github-urfave-negroni
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Free Ekanayaka <freee@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.8
+Homepage: https://github.com/urfave/negroni
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-urfave-negroni.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-urfave-negroni.git
+XS-Go-Import-Path: github.com/urfave/negroni
+
+Package: golang-github-urfave-negroni-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         golang-go
+Description: Idiomatic HTTP Middleware for Golang
+ Negroni is an idiomatic approach to web middleware in Go. It is tiny,
+ non-intrusive, and encourages use of net/http Handlers.
+ .
+ If you like the idea of Martini (https://github.com/go-martini/martini),
+ but you think it contains too much magic, then Negroni is a great fit.
+ .
+ This is the library formerly known as github.com/codegangsta/negroni (Github
+ will automatically redirect requests to it).
